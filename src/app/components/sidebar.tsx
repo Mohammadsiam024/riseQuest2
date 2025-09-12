@@ -27,12 +27,12 @@ function sidebar(){
           >
             <House size={20} className="text-purple-400" /> Home
           </Link>
-          <a
-            href="#"
+          <Link
+            href="./questline"
             className="flex items-center gap-3 hover:text-rose-700 transition-colors"
           >
             <Flame size={20} className="text-orange-400" /> Quest Line
-          </a>
+          </Link>
           <Link
             href="./journal"
             className="flex items-center gap-3 hover:text-purple-400 transition-colors"
