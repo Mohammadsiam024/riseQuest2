@@ -39,24 +39,24 @@ function sidebar(){
           >
             <Award size={20} className="text-yellow-400" /> Journal
           </Link>
-          <a
-            href="#"
+          <Link
+            href="./leaderboard"
             className="flex items-center gap-3 hover:text-purple-400 transition-colors"
           >
             <ChartColumn size={20} className="text-purple-400" /> LeaderBoard
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="./profile"
             className="flex items-center gap-3 hover:text-purple-400 transition-colors"
           >
             <BookOpen size={20} className="text-indigo-400" /> Profile
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="./settings"
             className="flex items-center gap-3 hover:text-purple-400 transition-colors"
           >
             <Settings size={20} className="text-gray-400" /> Settings
-          </a>
+          </Link>
         </nav>
         <div>
         <Skills/>

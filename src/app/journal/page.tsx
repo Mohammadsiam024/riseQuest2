@@ -43,7 +43,7 @@ export default function JournalPage() {
           <textarea
             value={newEntry}
             onChange={(e) => setNewEntry(e.target.value)}
-            placeholder="Write your thoughts for today..."
+            placeholder="Write your thoughts for today/ How your day went/ What changes you want to do tommorrow..."
             className="w-full p-3 bg-zinc-800 rounded-lg text-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500"
             rows={4}
           />

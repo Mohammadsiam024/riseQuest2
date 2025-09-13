@@ -15,6 +15,7 @@ export default function QuestPage() {
     { id: 1, text: "Log in today", completed: false },
     { id: 2, text: "Write a journal entry", completed: false },
     { id: 3, text: "Complete 1 coding challenge", completed: false },
+
   ]);
 
   const [weekly, setWeekly] = useState<Task[]>([
@@ -24,8 +25,8 @@ export default function QuestPage() {
   ]);
 
   const [community, setCommunity] = useState<Task[]>([
-    { id: 1, text: "Vote on the next community challenge", completed: false },
-    { id: 2, text: "Help a peer with debugging", completed: false },
+    { id: 1, text: "Monk mode for 7 days", completed: false },
+    { id: 2, text: "Talk to 3 new people for 7 days", completed: false },
   ]);
 
   const toggleTask = (
@@ -77,7 +78,7 @@ export default function QuestPage() {
 
     <div className="flex min-h-screen bg-zinc-950 text-gray-100 gap-6" >
         <Sidebar />
-      <main className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <main className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-6 pt-15 h-15">
         {/* Daily Quests */}
         <div className="bg-zinc-900 p-6 rounded-xl shadow-lg">
           <h2 className="text-xl font-bold text-purple-400 mb-4">Daily Quests</h2>
