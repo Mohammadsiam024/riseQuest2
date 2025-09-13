@@ -77,7 +77,7 @@ export default function QuestPage() {
 
     <div className="flex min-h-screen bg-zinc-950 text-gray-100 gap-6" >
         <Sidebar />
-      <main className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-2">
+      <main className="flex-1 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Daily Quests */}
         <div className="bg-zinc-900 p-6 rounded-xl shadow-lg">
           <h2 className="text-xl font-bold text-purple-400 mb-4">Daily Quests</h2>
