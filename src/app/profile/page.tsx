@@ -22,7 +22,9 @@ export default function ProfilePage() {
           <div>
             <h1 className="text-2xl font-bold text-purple-400">John Doe</h1>
             <p className="text-gray-400">Level 5 • 1200 XP</p>
-            <p className="text-sm text-gray-500 mt-1">"Learning every day ✨"</p>
+            <p className="text-sm text-gray-500 mt-1">
+              &quot;Learning every day ✨&quot;
+            </p>
           </div>
         </motion.div>
 
